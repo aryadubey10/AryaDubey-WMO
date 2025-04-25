@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel = "stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="header">
+            <h1>My To-Do List</h1>
+        </div>
+        
+        <div class="add-task">
+            <input type="text" placeholder="Add a new task...">
+            <button>Add</button>
+        </div>
+        
+        <ul class="task-list">
+            <li class="task priority-high">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text completed">Complete project proposal</span>
+                <button class="delete-btn">x</button>
+            </li>
+            
+            <li class="task priority-high">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Schedule team meeting</span>
+                <button class="delete-btn">x</button>
+            </li>
+            
+            <li class="task priority-medium">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Prepare presentation slides</span>
+                <button class="delete-btn">x</button>
+            </li>
+            
+            <li class="task priority-medium">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Review client feedback</span>
+                <button class="delete-btn">x</button>
+            </li>
+            
+            <li class="task priority-low">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Update personal website</span>
+                <button class="delete-btn">x</button>
+            </li>
+        </ul>
+        
+        <div class="task-stats">
+            <span>5 tasks</span>
+            <span>1 completed</span>
+        </div>
+    </div>
+</body>
+</html>
